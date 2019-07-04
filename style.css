@@ -1,0 +1,157 @@
+/*GENERAL STYLE*/
+
+h1,h2,h3{
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*NAV BAR*/
+.top-links{
+  display: inline-block;
+  padding: 0;
+  margin: 0 20px 0 0;
+  background-color: #1e2334;
+  }
+
+.top-links li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*HERO*/
+.hero{
+  color:white;
+  background: url('./images/download.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  padding:200px ;
+}
+
+.button{
+border: 1px solid #333;
+background-color: #32c3ff;
+color:white;
+display: block;
+padding: 10px 15px;
+text-transform: uppercase;
+font-size: .9em;
+letter-spacing: 1px;
+width: 220px;
+text-align: center;
+margin: 28px 0;
+}
+
+/*EMPRESAS*/
+.p-empresas{
+  font-size: 0.8em;
+  text-align: center;
+  color: rgba(45,53,76,.4);
+  margin-top: 20px;
+}
+
+.icon-empresas{
+  text-align: center;
+}
+
+.icon{
+  width: 10%;
+  filter: grayscale();
+}
+
+/*DATOS ESTUDIANTES*/
+
+.datos-estudiantes{
+  text-align: center;
+}
+
+.numericos{
+  font-size: 4.5em;
+  color: #2d354c;
+}
+
+.descripcion{
+  text-transform: uppercase;
+  color:#2d354c;
+  font-weight: bolder;
+}
+
+/*QUOTE*/
+
+.flexbox-1{
+  display: flex;
+  margin:50px;
+  }
+
+.colum-1{
+  width: 70%;
+}
+
+.colum-2{
+  width: 30%;
+  text-align: left;
+}
+
+.colum-3{
+  width: 50%;
+  background-color: white;
+}
+
+.colum-4{
+  width: 50%;
+  text-align: left;
+  background-color: white;
+}
+.image-1{
+  width: 95%;
+}
+
+.style-nombre{
+  color: #1e2334;
+}
+
+/*WHY*/
+
+
+.why{
+  text-align: center;
+}
+
+/*COURSES*/
+
+.h2-cursos{
+  margin-top: 80px;
+  font-size: 2.5em;
+}
+
+.h3-cursos{
+  margin-top: 30px;
+}
+
+.flexbox-2{
+  display:flex;
+  margin:50px;
+}
+
+.boton-info{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.p-info{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.p-duracion{
+  color: rgba(236,58,53,.6);
+  text-transform: uppercase;
+}
+
+.mas-info div{
+  border: 1px solid blue;
+
+}
